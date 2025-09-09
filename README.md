@@ -1,47 +1,38 @@
-# Java Data Structures Menu System
+# Data Structure Operations in Java
 
-This is a console-based Java program that demonstrates the basic operations of four fundamental data structures: **Stack**, **Queue**, **Singly Linked List**, and **Circular Linked List** using an interactive menu.
+Welcome to the **Java Data Structure Console Program**.  
+This project demonstrates the basic operations of different data structures in a simple, menu-driven format.  
 
-## How It Works
-- The program displays a main menu where the user can select a data structure.
-- Each data structure has its own set of operations:
-  - **Stack**: Push, Pop, Display
-  - **Queue**: Enqueue, Dequeue, Display
-  - **Singly Linked List**: Insert at End, Delete at Beginning, Display
-  - **Circular Linked List**: Insert, Delete, Display
-- The program validates user inputs and displays the updated structure after each operation.
+---
 
-## Sample Run
-Choose Data Structure:
+## 📂 Folder Structure
+The workspace includes the following structure:
 
-Stack
+- `src` → contains the Java source code file(s).  
+- `bin` → compiled output files (generated after build).  
+- `lib` → dependencies folder (if needed).  
+- `README.md` → documentation for the project.  
 
-Queue
+> You can adjust the folder layout or build settings inside `.vscode/settings.json` if using Visual Studio Code.
 
-Linked List
+---
 
-Circular Linked List
+## ⚙️ Program Features
+This project lets the user choose among **four data structures** and perform their basic operations:
 
-Exit
-Enter choice: 1
+- **Stack** → Push, Pop, Display  
+- **Queue** → Enqueue, Dequeue, Display  
+- **Linked List** → Insert at End, Delete at Beginning, Display  
+- **Circular Linked List** → Insert, Delete, Display  
 
---- Stack Operations ---
+After each operation, the current contents of the data structure are displayed.
 
-Push
+---
 
-Pop
+## ▶️ How to Run
+1. Clone this repository:
+   ```bash
+ <img width="487" height="266" alt="image" src="https://github.com/user-attachments/assets/5fd23b66-b986-40b8-a70e-f156e13bddc1" />
+ <img width="528" height="395" alt="image" src="https://github.com/user-attachments/assets/014a421b-9509-491e-ab04-a60758cd7ccd" />
 
-Display
 
-Back to Main Menu
-Enter choice: 1
-Enter value to push: 10
-Pushed 10 into stack.
-Stack contents (top→bottom): 10
-
-markdown
-Copy code
-
-## Author
-**Jade Michael Paye**  
-BSIT – September 2025
